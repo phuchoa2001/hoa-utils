@@ -6,7 +6,7 @@
 
 | Tên Hàm         | Tính Năng                                                                                     |
 |-----------------|------------------------------------------------------------------------------------------------|
-| `compareObject` | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị. Nếu một trong hai tham số không phải là đối tượng, hàm sẽ trả về `false`. |
+| `compareObject` | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị. Nếu một trong hai tham số không phải là đối tượng, hàm sẽ không hoạt động như mong muốn. |
 
 ## Cách Sử Dụng
 
