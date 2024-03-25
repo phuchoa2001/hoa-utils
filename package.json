@@ -1,11 +1,21 @@
 {
-  "name": "hoa-compare-objects",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "hoa-utils",
+  "version": "1.0.1",
+  "description": "modules de test upload",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
+    "build": "node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules",
+    "test:watch": "jest --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
 }
