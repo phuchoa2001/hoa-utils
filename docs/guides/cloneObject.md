@@ -28,4 +28,3 @@ Hàm `cloneObject` sẽ trả về một bản sao mới của đối tượng b
 ## Lưu ý
 
 - Hàm `cloneObject` sẽ sao chép tất cả các thuộc tính có thể serialize được của đối tượng. Các thuộc tính không thể serialize (`Function`, `Symbol`, `Date`, `RegExp`) có thể không được sao chép chính xác hoặc không được sao chép.
-```
