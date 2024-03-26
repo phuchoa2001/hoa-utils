@@ -1,38 +1,20 @@
 ## Giới Thiệu
 
-`hoa-utils` là một thư viện tiện ích JavaScript được thiết kế để cung cấp các hàm hữu ích cho việc phát triển phần mềm. Thư viện này bao gồm hàm `compareObject`, một công cụ mạnh mẽ cho việc so sánh sâu (deep equality) giữa hai đối tượng. Hàm này đảm bảo rằng hai đối tượng không chỉ giống nhau về bề mặt mà còn giống nhau về cấu trúc và nội dung, ngay cả khi chúng không phải là cùng một instance trong bộ nhớ.
+`hoa-utils` là một thư viện tiện ích JavaScript được thiết kế để cung cấp các hàm hữu ích cho việc phát triển phần mềm. Thư viện này bao gồm các hàm như `compareObject` và `cloneObject`, những công cụ mạnh mẽ cho việc so sánh sâu (deep equality) và sao chép sâu (deep copy) giữa các đối tượng. Các hàm này đảm bảo rằng các đối tượng không chỉ giống nhau về bề mặt mà còn giống nhau về cấu trúc và nội dung, ngay cả khi chúng không phải là cùng một instance trong bộ nhớ.
 
 ## Bảng Tính Năng Hàm
 
 | Tên Hàm         | Tính Năng                                                                                     |
 |-----------------|------------------------------------------------------------------------------------------------|
 | `compareObject` | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị. Nếu một trong hai tham số không phải là đối tượng, hàm sẽ không hoạt động như mong muốn. |
+| `cloneObject`   | Tạo một bản sao sâu của đối tượng, đảm bảo rằng bản sao là một thực thể độc lập không chia sẻ tham chiếu với đối tượng gốc. |
 
 ## Cách Sử Dụng
 
-Để sử dụng hàm `compareObject` từ thư viện `hoa-utils`, bạn cần truyền vào hai đối tượng mà bạn muốn so sánh. Dưới đây là một ví dụ về cách sử dụng hàm:
+[Hướng dẫn dùng `compareObject`](https://example.com/compareObject-guide)
 
-```javascript
-const { compareObject } = require('hoa-utils');
-
-const objectA = {
-  name: 'Alice',
-  age: 25,
-  hobbies: ['reading', 'cycling']
-};
-
-const objectB = {
-  name: 'Alice',
-  age: 25,
-  hobbies: ['reading', 'cycling']
-};
-
-const result = compareObject(objectA, objectB);
-console.log(result); // Output: true
-```
-
-Trong ví dụ trên, `compareObject` sẽ so sánh `objectA` và `objectB` để xác định xem chúng có giống nhau không. Kết quả sẽ là `true` nếu cả hai đối tượng có cùng cấu trúc và giá trị cho mỗi thuộc tính tương ứng.
+[Hướng dẫn dùng `cloneObject`](https://example.com/cloneObject-guide)
 
 ## Kết Luận
 
-Thư viện `hoa-utils` và hàm `compareObject` là công cụ lý tưởng cho bất kỳ ai cần đảm bảo rằng hai đối tượng JavaScript là hoàn toàn giống nhau. Đây là một phần không thể thiếu trong quá trình kiểm thử và xác minh dữ liệu, giúp bạn ổn định và tập hợp kiến thức lập trình của mình.
+Thư viện `hoa-utils` cung cấp các hàm `compareObject` và `cloneObject` là công cụ lý tưởng cho bất kỳ ai cần đảm bảo rằng hai đối tượng JavaScript là hoàn toàn giống nhau hoặc cần tạo một bản sao độc lập của một đối tượng. Sử dụng thư viện này giúp tác giả và các nhà phát triển khác ổn định và tập hợp kiến thức lập trình của mình, đồng thời cung cấp một giải pháp tiện lợi và hiệu quả cho việc kiểm thử và xác minh dữ liệu trong quá trình phát triển phần mềm.

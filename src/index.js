@@ -1,3 +1,4 @@
 const compareObject = require('./utils/compareObject');
+const cloneObject = require('./utils/cloneObject');
 
-module.exports = { compareObject };
+module.exports = { compareObject , cloneObject };
