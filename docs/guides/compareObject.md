@@ -1,5 +1,3 @@
-Dưới đây là nội dung mẫu cho hai file hướng dẫn `compareObject.md` và `cloneObject.md` mà bạn có thể sử dụng trong thư mục `docs/guides` của dự án `hoa-utils`.
-
 ### Nội dung cho `compareObject.md`:
 
 ```markdown
