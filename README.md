@@ -11,9 +11,9 @@
 
 ## Cách Sử Dụng
 
-[Hướng dẫn dùng `compareObject`](https://example.com/compareObject-guide)
+[Hướng dẫn dùng `compareObject`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/compareObject.md)
 
-[Hướng dẫn dùng `cloneObject`](https://example.com/cloneObject-guide)
+[Hướng dẫn dùng `cloneObject`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/cloneObject.md)
 
 ## Kết Luận
 
