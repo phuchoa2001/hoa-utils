@@ -27,8 +27,5 @@ Hàm `cloneObject` sẽ trả về một bản sao mới của đối tượng b
 
 ## Lưu ý
 
-- Hàm `cloneObject` sẽ sao chép tất cả các thuộc tính có thể serialize được của đối tượng. Các thuộc tính không thể serialize (như hàm, `Symbol`, `Date`, `RegExp`) có thể không được sao chép chính xác hoặc không được sao chép.
-- Đối với các đối tượng có tham chiếu đệ quy, hàm `cloneObject` có thể không hoạt động như mong đợi và cần phải được xử lý cẩn thận để tránh lỗi.
+- Hàm `cloneObject` sẽ sao chép tất cả các thuộc tính có thể serialize được của đối tượng. Các thuộc tính không thể serialize (`Function`, `Symbol`, `Date`, `RegExp`) có thể không được sao chép chính xác hoặc không được sao chép.
 ```
-
-Đảm bảo rằng bạn đã tạo thư mục `docs/guides` trong dự án của mình và lưu hai file này với tên `compareObject.md` và `cloneObject.md` tương ứng. Sau đó, bạn có thể tham chiếu đến các file này trong file README.md của mình để người dùng có thể truy cập hướng dẫn sử dụng.
