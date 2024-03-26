@@ -1,4 +1,3 @@
-```markdown
 # Hướng dẫn sử dụng hàm `cloneObject`
 
 Hàm `cloneObject` trong thư viện `hoa-utils` cho phép bạn tạo một bản sao sâu của một đối tượng JavaScript. Bản sao này sẽ là một thực thể độc lập không chia sẻ tham chiếu với đối tượng gốc.
