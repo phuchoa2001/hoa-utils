@@ -16,13 +16,8 @@
 
 [Hướng dẫn dùng `cloneObject`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/cloneObject.md)
 
-[Hướng dẫn dùng `createKeyedStorage`](https://github.com/phuchoa2001/hoa-utils/createKeyedStorage.md)
+[Hướng dẫn dùng `createKeyedStorage`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/createKeyedStorage.md)
 
 ## Kết Luận
 
 Thư viện `hoa-utils` cung cấp các hàm `compareObject`, `cloneObject` và `createKeyedStorage` là công cụ lý tưởng cho bất kỳ ai cần đảm bảo rằng hai đối tượng JavaScript là hoàn toàn giống nhau, cần tạo một bản sao độc lập của một đối tượng, hoặc cần quản lý dữ liệu trong `localStorage` một cách an toàn và hiệu quả. Sử dụng thư viện này giúp tác giả và các nhà phát triển khác ổn định và tập hợp kiến thức lập trình của mình, đồng thời cung cấp một giải pháp tiện lợi và hiệu quả cho việc kiểm thử, xác minh dữ liệu và quản lý dữ liệu trong quá trình phát triển phần mềm.
-
-Citations:
-[1] https://www.investopedia.com/articles/mortgages-real-estate/08/homeowners-associations-tips.asp
-[2] https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/compareObject.md
-[3] https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/cloneObject.md
