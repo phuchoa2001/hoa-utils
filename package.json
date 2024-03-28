@@ -1,6 +1,6 @@
 {
   "name": "hoa-utils",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "modules de test upload",
   "main": "src/index.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "type": "git",
     "url": "https://github.com/phuchoa2001/hoa-utils"
   },
+  "keywords": ["javascript", "choachoa", "utility", "helper", "hoa-utils"],
   "dependencies": {
     "jest": "^29.7.0"
   }
