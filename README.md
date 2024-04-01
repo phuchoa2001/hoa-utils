@@ -12,11 +12,15 @@
 
 ## Cách Sử Dụng
 
-[Hướng dẫn dùng `compareObject`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/compareObject.md)
+Để sử dụng các hàm tiện ích trong `hoa-utils`, bạn có thể tham khảo các hướng dẫn cụ thể tại trang tài liệu:
 
-[Hướng dẫn dùng `cloneObject`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/cloneObject.md)
+- [Hướng dẫn dùng `compareObject`](https://hoa-utils.netlify.app/#/guides/compareObject)
+- [Hướng dẫn dùng `cloneObject`](https://hoa-utils.netlify.app/#/guides/cloneObject)
+- [Hướng dẫn dùng `createKeyedStorage`](https://hoa-utils.netlify.app/#/guides/createKeyedStorage)
 
-[Hướng dẫn dùng `createKeyedStorage`](https://github.com/phuchoa2001/hoa-utils/blob/main/docs/guides/createKeyedStorage.md)
+Để quay lại trang chủ của tài liệu, bạn có thể truy cập:
+
+- [Trang Chủ Tài Liệu](https://hoa-utils.netlify.app)
 
 ## Kết Luận
 
