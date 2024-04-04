@@ -7,6 +7,7 @@
   * [Clone Object](guides/cloneObject.md)
   * [Compare Object](guides/compareObject.md)
   * [Create Keyed Storage](guides/createKeyedStorage.md)
+  * [memoize](guides/memoize.md)
 
 ---
 

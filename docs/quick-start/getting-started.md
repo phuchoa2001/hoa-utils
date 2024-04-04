@@ -1,4 +1,3 @@
-```markdown
 # Bắt Đầu Sử Dụng hoa-utils
 
 hoa-utils là một thư viện tiện ích JavaScript cung cấp các hàm hữu ích để xử lý các tác vụ phổ biến trong lập trình.
@@ -8,7 +7,7 @@ hoa-utils là một thư viện tiện ích JavaScript cung cấp các hàm hữ
 Để sử dụng hoa-utils trong dự án của bạn, cài đặt thư viện thông qua npm:
 
 ```bash
-npm install hoa-utils
+npm install hoa-utils 
 ```
 
 ## Các Hàm Cơ Bản

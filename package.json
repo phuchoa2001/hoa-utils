@@ -1,6 +1,6 @@
 {
   "name": "hoa-utils",
-  "version": "1.0.7",
+  "version": "1.0.11",
   "description": "Thư viện tiện ích JavaScript cung cấp các hàm để so sánh đối tượng, sao chép đối tượng, và quản lý dữ liệu localStorage một cách hiệu quả.",
   "homepage": "https://hoa-utils.netlify.app",
   "main": "src/index.js",
