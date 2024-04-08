@@ -3,13 +3,16 @@
   * [Tổng quan](quick-start/getting-started.md)
   * [Cài đặt](quick-start/installation.md)
   * [Bắt đầu nhanh](quick-start/quick-start.md)
-* [Hướng dẫn các hàm](guides/cloneObject.md)
+* <strong>Hàm xử lý đối tượng</strong>
   * [Clone Object](guides/cloneObject.md)
   * [Compare Object](guides/compareObject.md)
+* <strong>Hàm xử lý dữ liệu</strong>
   * [Create Keyed Storage](guides/createKeyedStorage.md)
-  * [memoize](guides/memoize.md)
-  * [debounce](guides/debounce.md)
-  * [throttle](guides/throttle.md)
+  * [TypeCheck](guides/typeCheck.md)
+* <strong>Hàm tối ưu hiệu suất</strong>
+  * [Memoize](guides/memoize.md)
+  * [Debounce](guides/debounce.md)
+  * [Throttle](guides/throttle.md)
 
 ---
 
