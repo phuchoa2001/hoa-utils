@@ -16,7 +16,12 @@
   * [Throttle](guides/throttle.md)
 =======
   * [memoize](guides/memoize.md)
+<<<<<<< HEAD
 >>>>>>> 6a44176 (Hoa/them_ham_memoize_va_export_createKeyedStorage)
+=======
+  * [debounce](guides/debounce.md)
+  * [throttle](guides/throttle.md)
+>>>>>>> d9937f6 (Hoa/them_ham_throttle_va_ham_debounce)
 
 ---
 
