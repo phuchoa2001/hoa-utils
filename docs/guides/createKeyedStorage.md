@@ -1,5 +1,3 @@
-Đây là nội dung cho file `createKeyedStorage.md`:
-
 # Hướng dẫn sử dụng hàm `createKeyedStorage`
 
 Hàm `createKeyedStorage` trong thư viện `hoa-utils` được sử dụng để tạo ra một đối tượng chứa các phương thức để truy cập và quản lý dữ liệu trong `localStorage` với một key riêng biệt. Điều này giúp tránh xung đột giữa các key của các ứng dụng khác nhau khi sử dụng `localStorage`.
