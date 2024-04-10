@@ -5,17 +5,13 @@
   "homepage": "https://hoa-utils.netlify.app",
   "main": "src/index.js",
   "scripts": {
-    "dev": "node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
     "build": "docsify build",
     "test:watch": "jest --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "docsify-cli": "^4.4.4",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "docsify-cli": "^4.4.4"
   },
   "repository": {
     "type": "git",
