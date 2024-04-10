@@ -4,9 +4,10 @@
   * [Cài đặt](quick-start/installation.md)
   * [Bắt đầu nhanh](quick-start/quick-start.md)
 * <strong>Hàm xử lý đối tượng</strong>
-  * [Clone Object](guides/cloneObject.md)
-  * [Compare Object](guides/compareObject.md)
+  * [cloneObject](guides/cloneObject.md)
+  * [compareObject](guides/compareObject.md)
 * <strong>Hàm xử lý dữ liệu</strong>
+<<<<<<< Updated upstream
   * [Create Keyed Storage](guides/createKeyedStorage.md)
 <<<<<<< HEAD
   * [TypeCheck](guides/typeCheck.md)
@@ -22,6 +23,15 @@
   * [debounce](guides/debounce.md)
   * [throttle](guides/throttle.md)
 >>>>>>> d9937f6 (Hoa/them_ham_throttle_va_ham_debounce)
+=======
+  * [createKeyedStorage](guides/createKeyedStorage.md)
+  * [typeCheck](guides/typeCheck.md)
+* <strong>Hàm tối ưu hiệu suất</strong>
+  * [memoize](guides/memoize.md)
+  * [debounce](guides/debounce.md)
+  * [throttle](guides/throttle.md)
+  * [delay](guides/delay.md)
+>>>>>>> Stashed changes
 
 ---
 
