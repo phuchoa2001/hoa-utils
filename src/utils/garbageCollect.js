@@ -1,4 +1,4 @@
-const typeValues = require('../../contants/typeValues');
+const typeValues = require('../contants/typeValues');
 const typeCheck = require('./typeCheck');
 const isDataTypeSupported = require("./isDataTypeSupported")
 
