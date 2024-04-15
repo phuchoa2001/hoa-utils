@@ -9,6 +9,8 @@
 * <strong>Hàm xử lý dữ liệu</strong>
   * [Create Keyed Storage](guides/createKeyedStorage.md)
   * [TypeCheck](guides/typeCheck.md)
+* <strong>Hàm định dạng dữ liệu</strong>
+  * [Format Number](guides/formatNumber.md)
 * <strong>Hàm tối ưu hiệu suất</strong>
   * [Memoize](guides/memoize.md)
   * [Debounce](guides/debounce.md)
