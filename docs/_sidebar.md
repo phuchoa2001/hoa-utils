@@ -3,18 +3,29 @@
   * [Tổng quan](quick-start/getting-started.md)
   * [Cài đặt](quick-start/installation.md)
   * [Bắt đầu nhanh](quick-start/quick-start.md)
-* <strong>Hàm xử lý đối tượng</strong>
+
+<details open>
+<summary><strong>Hàm xử lý đối tượng</strong></summary>
+
   * [Clone Object](guides/cloneObject.md)
   * [Compare Object](guides/compareObject.md)
-* <strong>Hàm xử lý dữ liệu</strong>
+</details>
+
+<details open>
+<summary><strong>Hàm xử lý dữ liệu</strong></summary>
+
   * [Create Keyed Storage](guides/createKeyedStorage.md)
   * [TypeCheck](guides/typeCheck.md)
-* <strong>Hàm định dạng dữ liệu</strong>
   * [Format Number](guides/formatNumber.md)
-* <strong>Hàm tối ưu hiệu suất</strong>
+</details>
+
+<details open>
+<summary><strong>Hàm tối ưu hiệu suất</strong></summary>
+
   * [Memoize](guides/memoize.md)
   * [Debounce](guides/debounce.md)
   * [Throttle](guides/throttle.md)
+</details>
 
 ---
 
