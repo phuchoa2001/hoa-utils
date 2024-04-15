@@ -6,5 +6,6 @@ const debounce = require('./utils/debounce');
 const throttle = require('./utils/throttle');
 const typeCheck = require('./utils/typeCheck');
 const { delay } = require("./utils/promiseUtils");
+const formatNumber = require('./utils/formatNumber');
 
-module.exports = { compareObject, cloneObject, createKeyedStorage, memoize, debounce, throttle , typeCheck };
+module.exports = { compareObject, cloneObject, createKeyedStorage, memoize, debounce, throttle , typeCheck , formatNumber };

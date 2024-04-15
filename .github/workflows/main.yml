@@ -14,7 +14,6 @@ jobs:
       with:
         node-version: 19.8.1
         registry-url: 'https://registry.npmjs.org'
-    - run: cd src
     - run: npm install  # Thêm bước này để cập nhật package-lock.json
     - run: npm ci
     - run: npm publish
