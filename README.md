@@ -1,8 +1,8 @@
 ## Giới Thiệu
 
-`hoa-utils` là một thư viện tiện ích JavaScript được thiết kế để cung cấp các hàm hữu ích cho việc phát triển phần mềm. Thư viện này bao gồm các hàm như `compareObject`, `cloneObject`, `createKeyedStorage` và `memoize`, những công cụ mạnh mẽ cho việc so sánh sâu, sao chép sâu giữa các đối tượng, quản lý dữ liệu trong `localStorage` và tối ưu hiệu suất bằng cách lưu trữ kết quả của các hàm tính toán phức tạp.
+`hoa-utils` là một thư viện tiện ích JavaScript được thiết kế để cung cấp các hàm hữu ích cho việc phát triển phần mềm. Mục đích chính của thư viện này là giúp đơn giản hóa các tác vụ thường gặp như so sánh đối tượng, sao chép đối tượng, quản lý dữ liệu localStorage và tối ưu hiệu suất bằng cách lưu trữ kết quả của các hàm tính toán phức tạp.
 
-## Bảng Tính Năng Hàm
+Thư viện bao gồm các hàm chính sau:
 
 | Tên Hàm           | Tính Năng                                                                                     |
 |-------------------|------------------------------------------------------------------------------------------------|
@@ -11,19 +11,38 @@
 | `createKeyedStorage` | Tạo ra một đối tượng để quản lý dữ liệu trong `localStorage` với một key riêng biệt. |
 | `memoize`         | Tạo ra một phiên bản memoized của một hàm, lưu trữ kết quả của hàm với các đầu vào nhất định để tránh tính toán lặp lại. |
 
-## Cách Sử Dụng
+Thư viện `hoa-utils` được thiết kế dành cho các lập trình viên JavaScript, đặc biệt là những người làm việc với đối tượng, dữ liệu và tối ưu hiệu suất. Bằng cách sử dụng các hàm tiện ích này, các lập trình viên có thể đơn giản hóa mã nguồn, tăng tính nhất quán và đảm bảo tính chính xác trong việc xử lý dữ liệu.
 
-Để sử dụng các hàm tiện ích trong `hoa-utils`, bạn có thể tham khảo các hướng dẫn cụ thể tại trang tài liệu:
+## Cài đặt và Sử dụng
 
-- [Hướng dẫn dùng `compareObject`](https://hoa-utils.netlify.app/#/guides/compareObject)
-- [Hướng dẫn dùng `cloneObject`](https://hoa-utils.netlify.app/#/guides/cloneObject)
-- [Hướng dẫn dùng `createKeyedStorage`](https://hoa-utils.netlify.app/#/guides/createKeyedStorage)
-- [Hướng dẫn dùng `memoize`](https://hoa-utils.netlify.app/#/guides/memoize)
+Bạn có thể cài đặt `hoa-utils` thông qua npm:
 
-Để quay lại trang chủ của tài liệu, bạn có thể truy cập:
+```
+npm install hoa-utils
+```
 
-- [Trang Chủ Tài Liệu](https://hoa-utils.netlify.app)
+Hoặc sử dụng CDN:
 
-## Kết Luận
+```html
+<script src="https://unpkg.com/hoa-utils"></script>
+```
 
-Thư viện `hoa-utils` cung cấp các hàm `compareObject`, `cloneObject`, `createKeyedStorage` và `memoize` là công cụ lý tưởng cho bất kỳ ai cần đảm bảo rằng hai đối tượng JavaScript là hoàn toàn giống nhau, cần tạo một bản sao độc lập của một đối tượng, cần quản lý dữ liệu trong `localStorage` một cách an toàn và hiệu quả, hoặc cần tối ưu hiệu suất bằng cách lưu trữ kết quả của các hàm tính toán phức tạp. Sử dụng thư viện này giúp tác giả và các nhà phát triển khác ổn định và tập hợp kiến thức lập trình của mình, đồng thời cung cấp một giải pháp tiện lợi và hiệu quả cho việc kiểm thử, xác minh dữ liệu, quản lý dữ liệu và tối ưu hiệu suất trong quá trình phát triển phần mềm.
+Sau khi cài đặt, bạn có thể sử dụng các hàm trong thư viện như sau:
+
+```javascript
+import { compareObject, cloneObject, createKeyedStorage, memoize } from 'hoa-utils';
+
+// Sử dụng các hàm ở đây
+```
+
+## Tài liệu
+
+Để tìm hiểu chi tiết về cách sử dụng từng hàm, hãy tham khảo tài liệu tại: https://hoa-utils.netlify.app
+
+## Về Dự án
+
+`hoa-utils` được phát triển bởi [Đặng Phúc Hòa](https://github.com/phuchoa2001) và được phát hành dưới giấy phép MIT License. 
+
+Mã nguồn của dự án có thể được tìm thấy tại: https://github.com/phuchoa2001/hoa-utils
+
+Mọi đóng góp, báo cáo lỗi hoặc yêu cầu tính năng mới đều được hoan nghênh. Hãy tham gia cùng chúng tôi để cải thiện và phát triển thư viện `hoa-utils`!
