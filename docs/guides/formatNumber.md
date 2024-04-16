@@ -20,6 +20,23 @@ console.log(formatNumber(number3)); // Output: -5B
 
 Hàm `formatNumber` sẽ trả về một chuỗi biểu thị số đã được chuyển đổi thành dạng rút gọn với đơn vị phù hợp.
 
+## Xử lý đầu vào không phải kiểu số
+
+Hàm `formatNumber` chỉ hoạt động với đầu vào là kiểu số (number). Nếu đầu vào không phải kiểu số, hàm sẽ trả về chuỗi "0".
+
+Ví dụ:
+
+```javascript
+const { formatNumber } = require('hoa-utils');
+
+console.log(formatNumber('abc')); // Output: "0"
+console.log(formatNumber(null)); // Output: "0"
+console.log(formatNumber(undefined)); // Output: "0"
+console.log(formatNumber({})); // Output: "0"
+```
+
+Trong trường hợp trên, vì đầu vào không phải kiểu số, hàm `formatNumber` sẽ trả về chuỗi "0".
+
 ## Lưu ý
 
 - Hàm `formatNumber` sẽ luôn hiển thị 2 chữ số thập phân, trừ khi số đó chia hết cho 1000, trong trường hợp đó sẽ không có phần thập phân.

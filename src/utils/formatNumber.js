@@ -1,9 +1,17 @@
+const typeCheck = require('./typeCheck');
+const typeValues = require("../contants/typeValues")
+
 /**
  * Convert a number to an abbreviated format with standard units
  * @param {number} num - The number to be converted
  * @returns {string} The number converted to an abbreviated format
  */
 function formatNumber(num) {
+
+  if (typeCheck(num) !== typeValues.number) {
+    return '0'
+  }
+
   // Handle negative numbers
   const isNegative = num < 0; 
   num = Math.abs(num);

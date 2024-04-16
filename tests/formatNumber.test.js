@@ -60,4 +60,16 @@ describe('formatNumber', () => {
     expect(formatNumber(-12345678)).toBe('-12.35M');
     expect(formatNumber(-5000000000)).toBe('-5B');
   });
+
+  test('should handle zero', () => {
+    expect(formatNumber(0)).toBe('0');
+  });
+
+  test('should return "0" if input is not a number', () => {
+    expect(formatNumber('abc')).toBe('0');
+    expect(formatNumber(null)).toBe('0');
+    expect(formatNumber(undefined)).toBe('0');
+    expect(formatNumber({})).toBe('0');
+  });
+  
 });
