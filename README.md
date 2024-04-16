@@ -23,7 +23,7 @@ npm install hoa-utils
 
 Hoặc sử dụng CDN:
 
-```html
+```html 
 <script src="https://unpkg.com/hoa-utils"></script>
 ```
 
