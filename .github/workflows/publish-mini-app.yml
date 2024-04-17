@@ -18,14 +18,14 @@ jobs:
       with:
         node-version: 19.8.1
         registry-url: 'https://registry.npmjs.org'
-        
+
+    - name: Build mini app
+      run: npm run build:webpack
+
     - name: Install dependencies
       run: |
         cd lib-mini
         npm install
-      
-    - name: Build mini app
-      run: npm run build:webpack
       
     - name: Publish to NPM
       run: |
