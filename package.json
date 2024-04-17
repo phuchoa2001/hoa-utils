@@ -5,7 +5,7 @@
   "homepage": "https://hoa-utils.netlify.app",
   "main": "src/index.js",
   "scripts": {
-    "build:webpack": "docsify build",
+    "build:webpack": "npx webpack --config webpack.config.js",
     "build": "docsify build",
     "test:watch": "jest --watch"
   },
