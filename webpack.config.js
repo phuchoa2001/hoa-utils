@@ -29,8 +29,8 @@ module.exports = {
           },
         },
         {
-          from: './README.md', // Sao chép file README.md
-          to: path.resolve(__dirname, 'lib-mini'), // Đích đến là thư mục lib-mini
+          from: './README.md',
+          to: path.resolve(__dirname, 'lib-mini'),
         },
       ],
     }),
