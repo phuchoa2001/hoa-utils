@@ -18,5 +18,5 @@ module.exports = {
   throttle,
   typeCheck,
   formatNumber,
-  toUpperCaseAndRemoveVietnamese
+  toUpperCaseAndRemoveVietnamese,
 };
