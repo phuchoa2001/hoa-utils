@@ -12,6 +12,12 @@
 </details>
 
 <details>
+<summary><strong>Hàm xử lý văn bản</strong></summary>
+
+- [ToUpperCaseAndRemoveVietnamese](guides/toUpperCaseAndRemoveVietnamese.md)
+</details>
+
+<details>
 <summary><strong>Hàm xử lý dữ liệu</strong></summary>
 
 - [Create Keyed Storage](guides/createKeyedStorage.md)
