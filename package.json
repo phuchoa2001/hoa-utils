@@ -7,17 +7,27 @@
   "scripts": {
     "build:webpack": "npx webpack --config webpack.config.js",
     "build": "docsify build",
-    "test:watch": "jest --watch"
+    "format": "npx prettier . --write",
+    "test:watch": "jest --watch",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "copy-webpack-plugin": "^12.0.2",
     "docsify-cli": "^4.4.4",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
     "terser-webpack-plugin": "^5.3.10",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-node-externals": "^3.0.0"
+  },
+  "lint-staged": {
+    "*": [
+      "npx prettier . --write"
+    ]
   },
   "repository": {
     "type": "git",
@@ -26,6 +36,11 @@
   "files": [
     "src/**/*"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
   "keywords": [
     "javascript",
     "choachoa",

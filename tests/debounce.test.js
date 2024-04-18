@@ -13,9 +13,9 @@ describe('debounce', () => {
   it('should call the function after the delay', () => {
     debouncedFunc();
     expect(func).not.toBeCalled();
-  
+
     jest.advanceTimersByTime(100); // Tua nhanh thời gian 100ms
-  
+
     expect(func).toHaveBeenCalledTimes(1);
   });
 

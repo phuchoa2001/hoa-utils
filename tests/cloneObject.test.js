@@ -13,8 +13,8 @@ describe('cloneObject Function', () => {
       name: 'John',
       address: {
         city: 'New York',
-        country: 'USA'
-      }
+        country: 'USA',
+      },
     };
     const clonedObj = cloneObject(obj);
     expect(clonedObj).toEqual(obj);
@@ -31,7 +31,9 @@ describe('cloneObject Function', () => {
   test('should clone an object containing a function', () => {
     const obj = {
       name: 'John',
-      greet: function() { console.log(`Hello, my name is ${this.name}`); }
+      greet: function () {
+        console.log(`Hello, my name is ${this.name}`);
+      },
     };
     const clonedObj = cloneObject(obj);
     expect(clonedObj).toEqual(obj);
@@ -44,10 +46,10 @@ describe('cloneObject Function', () => {
       level1: {
         level2: {
           level3: {
-            name: 'John'
-          }
-        }
-      }
+            name: 'John',
+          },
+        },
+      },
     };
     const clonedObj = cloneObject(obj);
     expect(clonedObj).toEqual(obj);

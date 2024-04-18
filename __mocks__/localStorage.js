@@ -7,8 +7,8 @@ const createMockLocalStorage = () => {
   };
 
   const getKeys = () => {
-    return Object.keys(store);;
-  }
+    return Object.keys(store);
+  };
 
   const length = () => Object.keys(store).length;
 
@@ -19,7 +19,7 @@ const createMockLocalStorage = () => {
     clear: () => (store = {}),
     key,
     length,
-    getKeys
+    getKeys,
   };
 };
 

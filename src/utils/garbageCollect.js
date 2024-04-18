@@ -1,10 +1,10 @@
 const typeValues = require('../contants/typeValues');
 const typeCheck = require('./typeCheck');
-const isDataTypeSupported = require("./isDataTypeSupported")
+const isDataTypeSupported = require('./isDataTypeSupported');
 
 function garbageCollect(value) {
   const dataType = typeCheck(value);
-  
+
   if (isDataTypeSupported(value)) {
     if (dataType === 'object' || dataType === 'array') {
       for (const prop in value) {

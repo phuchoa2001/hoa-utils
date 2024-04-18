@@ -1,35 +1,35 @@
-* [Trang chủ](/)
-* [Bắt đầu](quick-start/getting-started.md)
-  * [Tổng quan](quick-start/getting-started.md)
-  * [Cài đặt](quick-start/installation.md)
-  * [Bắt đầu nhanh](quick-start/quick-start.md)
+- [Trang chủ](/)
+- [Bắt đầu](quick-start/getting-started.md)
+  - [Tổng quan](quick-start/getting-started.md)
+  - [Cài đặt](quick-start/installation.md)
+  - [Bắt đầu nhanh](quick-start/quick-start.md)
 
 <details>
 <summary><strong>Hàm xử lý đối tượng</strong></summary>
 
-  * [Clone Object](guides/cloneObject.md)
-  * [Compare Object](guides/compareObject.md)
+- [Clone Object](guides/cloneObject.md)
+- [Compare Object](guides/compareObject.md)
 </details>
 
 <details>
 <summary><strong>Hàm xử lý dữ liệu</strong></summary>
 
-  * [Create Keyed Storage](guides/createKeyedStorage.md)
-  * [TypeCheck](guides/typeCheck.md)
+- [Create Keyed Storage](guides/createKeyedStorage.md)
+- [TypeCheck](guides/typeCheck.md)
 </details>
 
 <details>
 <summary><strong>Hàm định dạng dữ liệu</strong></summary>
 
-  * [Format Number](guides/formatNumber.md)
+- [Format Number](guides/formatNumber.md)
 </details>
 
 <details>
 <summary><strong>Hàm tối ưu hiệu suất</strong></summary>
 
-  * [Memoize](guides/memoize.md)
-  * [Debounce](guides/debounce.md)
-  * [Throttle](guides/throttle.md)
+- [Memoize](guides/memoize.md)
+- [Debounce](guides/debounce.md)
+- [Throttle](guides/throttle.md)
 </details>
 
 ---

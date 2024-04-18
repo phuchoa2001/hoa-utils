@@ -13,18 +13,20 @@ Cảm ơn bạn đã quan tâm đến việc đóng góp cho dự án `hoa-utils
 ## Hướng dẫn phát triển
 
 1. **Thiết lập môi trường**:
-    - Cài đặt [Node.js](https://nodejs.org/) và [npm](https://www.npmjs.com/).
-    - Fork dự án và clone repo của bạn.
-    - Chạy `npm install` để cài đặt các phụ thuộc.
+
+   - Cài đặt [Node.js](https://nodejs.org/) và [npm](https://www.npmjs.com/).
+   - Fork dự án và clone repo của bạn.
+   - Chạy `npm install` để cài đặt các phụ thuộc.
 
 2. **Công cụ và thư viện**:
-    - Dự án sử dụng [Jest](https://jestjs.io/) để viết và chạy bộ kiểm thử.
-    - Mã nguồn được định dạng bằng [Prettier](https://prettier.io/).
+
+   - Dự án sử dụng [Jest](https://jestjs.io/) để viết và chạy bộ kiểm thử.
+   - Mã nguồn được định dạng bằng [Prettier](https://prettier.io/).
 
 3. **Xây dựng và kiểm thử**:
-    - Chạy `npm run build` để xây dựng dự án.
-    - Chạy `npm test` để chạy bộ kiểm thử.
-    - Chạy `npm run format` để định dạng mã nguồn với Prettier.
+   - Chạy `npm run build` để xây dựng dự án.
+   - Chạy `npm test` để chạy bộ kiểm thử.
+   - Chạy `npm run format` để định dạng mã nguồn với Prettier.
 
 ## Quy ước mã nguồn
 

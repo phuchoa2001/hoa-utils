@@ -11,12 +11,12 @@ const { compareObject } = require('hoa-utils');
 
 const object1 = {
   name: 'John',
-  age: 30
+  age: 30,
 };
 
 const object2 = {
   name: 'John',
-  age: 30
+  age: 30,
 };
 
 const areEqual = compareObject(object1, object2);
