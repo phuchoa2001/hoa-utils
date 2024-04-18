@@ -23,10 +23,10 @@ Dưới đây là một ví dụ về cách sử dụng hàm `memoize` để t�
 
 ```javascript
 // Hàm tính giai thừa
-const factorial = n => {
+const factorial = (n) => {
   if (n === 0) return 1;
   return n * factorial(n - 1);
-}
+};
 
 // Tạo phiên bản memoized của hàm factorial
 const memoizedFactorial = memoize(factorial);

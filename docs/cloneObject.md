@@ -14,8 +14,8 @@ const originalObject = {
   age: 25,
   contact: {
     email: 'alice@example.com',
-    phone: '123-456-7890'
-  }
+    phone: '123-456-7890',
+  },
 };
 
 const clonedObject = cloneObject(originalObject);

@@ -24,7 +24,8 @@ const createKeyedStorage = (key) => {
 
   // Hàm set item với JSON.stringify nếu là object
   const setItemJSON = (itemKey, value) => {
-    const valueToStore = typeof value === 'object' ? JSON.stringify(value) : value;
+    const valueToStore =
+      typeof value === 'object' ? JSON.stringify(value) : value;
     setItem(itemKey, valueToStore);
   };
 
@@ -36,7 +37,9 @@ const createKeyedStorage = (key) => {
   const clearMatchingKeys = () => {
     const keyPrefix = `${storageKey}:`;
     const isMockStorage = typeof localStorage.length === 'function';
-    const keys = isMockStorage ? localStorage.getKeys() : Object.keys(localStorage);
+    const keys = isMockStorage
+      ? localStorage.getKeys()
+      : Object.keys(localStorage);
 
     for (const key of keys) {
       if (key.startsWith(keyPrefix)) {
@@ -46,7 +49,14 @@ const createKeyedStorage = (key) => {
   };
 
   // Trả về các hàm để sử dụng
-  return { getItem, setItem, removeItem, clearMatchingKeys , getItemParsed , setItemJSON };
+  return {
+    getItem,
+    setItem,
+    removeItem,
+    clearMatchingKeys,
+    getItemParsed,
+    setItemJSON,
+  };
 };
 
 module.exports = createKeyedStorage;

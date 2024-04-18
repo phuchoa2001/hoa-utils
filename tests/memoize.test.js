@@ -2,7 +2,7 @@ const memoize = require('../src/utils/memoize');
 
 describe('memoize', () => {
   it('should return the cached result for the same function and arguments', () => {
-    const mockFn1 = jest.fn(x => x * x);
+    const mockFn1 = jest.fn((x) => x * x);
     const mockFn2 = jest.fn((x, y) => x + y);
     const memoizedFn1 = memoize(mockFn1);
     const memoizedFn2 = memoize(mockFn2);
@@ -21,7 +21,7 @@ describe('memoize', () => {
   });
 
   it('should call the original function for different arguments', () => {
-    const mockFn1 = jest.fn(x => x * x);
+    const mockFn1 = jest.fn((x) => x * x);
     const mockFn2 = jest.fn((x, y) => x + y);
     const memoizedFn1 = memoize(mockFn1);
     const memoizedFn2 = memoize(mockFn2);
@@ -40,7 +40,7 @@ describe('memoize', () => {
   });
 
   it('should handle different functions separately', () => {
-    const mockFn1 = jest.fn(x => x * x);
+    const mockFn1 = jest.fn((x) => x * x);
     const mockFn2 = jest.fn((x, y) => x + y);
     const memoizedFn1 = memoize(mockFn1);
     const memoizedFn2 = memoize(mockFn2);

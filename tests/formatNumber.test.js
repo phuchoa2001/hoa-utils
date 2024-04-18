@@ -71,5 +71,4 @@ describe('formatNumber', () => {
     expect(formatNumber(undefined)).toBe('0');
     expect(formatNumber({})).toBe('0');
   });
-  
 });

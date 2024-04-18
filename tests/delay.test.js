@@ -38,7 +38,7 @@ describe('delay', () => {
 
     expect(duration1).toBeGreaterThanOrEqual(delayTime1);
     expect(duration1).toBeLessThan(delayTime1 + 100);
-    expect(duration2).toBeGreaterThanOrEqual(delayTime2); 
+    expect(duration2).toBeGreaterThanOrEqual(delayTime2);
     expect(duration2).toBeLessThan(delayTime2 + 100);
-  } , 10000);
+  }, 10000);
 });

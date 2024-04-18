@@ -4,12 +4,12 @@
 
 ## Bảng Tính Năng Hàm
 
-| Tên Hàm           | Tính Năng                                                                                     |
-|-------------------|------------------------------------------------------------------------------------------------|
-| `compareObject`   | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị. |
-| `cloneObject`     | Tạo một bản sao sâu của đối tượng, đảm bảo rằng bản sao là một thực thể độc lập. |
-| `createKeyedStorage` | Tạo ra một đối tượng để quản lý dữ liệu trong `localStorage` với một key riêng biệt. |
-| `memoize`         | Tạo ra một phiên bản memoized của một hàm, lưu trữ kết quả của hàm với các đầu vào nhất định để tránh tính toán lặp lại. |
+| Tên Hàm              | Tính Năng                                                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `compareObject`      | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị.                                          |
+| `cloneObject`        | Tạo một bản sao sâu của đối tượng, đảm bảo rằng bản sao là một thực thể độc lập.                                         |
+| `createKeyedStorage` | Tạo ra một đối tượng để quản lý dữ liệu trong `localStorage` với một key riêng biệt.                                     |
+| `memoize`            | Tạo ra một phiên bản memoized của một hàm, lưu trữ kết quả của hàm với các đầu vào nhất định để tránh tính toán lặp lại. |
 
 ## Cách Sử Dụng
 

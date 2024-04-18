@@ -8,19 +8,19 @@ Với mục đích thúc đẩy một môi trường mở, đa dạng và thân 
 
 Ví dụ về hành vi góp phần tạo ra một môi trường tích cực bao gồm:
 
-* Sử dụng ngôn ngữ đầy đủ và rõ ràng
-* Tôn trọng quan điểm và kinh nghiệm khác nhau
-* Chấp nhận phê bình xây dựng một cách lịch sự
-* Tập trung vào những gì tốt nhất cho cộng đồng
-* Thể hiện lòng trắc ẩn đối với các thành viên khác trong cộng đồng
+- Sử dụng ngôn ngữ đầy đủ và rõ ràng
+- Tôn trọng quan điểm và kinh nghiệm khác nhau
+- Chấp nhận phê bình xây dựng một cách lịch sự
+- Tập trung vào những gì tốt nhất cho cộng đồng
+- Thể hiện lòng trắc ẩn đối với các thành viên khác trong cộng đồng
 
 Ví dụ về hành vi không thể chấp nhận của người tham gia bao gồm:
 
-* Sử dụng ngôn ngữ hoặc hình ảnh tình dục và có tính gợi dục không đúng chỗ
-* Bình luận xúc phạm / lăng mạ, những lời lẽ xúc phạm hoặc hành vi quấy rối
-* Các hành vi quấy rối công khai hoặc riêng tư
-* Công bố thông tin cá nhân của người khác, chẳng hạn như địa chỉ vật lý hoặc điện tử, mà không được phép
-* Các hành vi khác được coi là không phù hợp trong môi trường chuyên nghiệp
+- Sử dụng ngôn ngữ hoặc hình ảnh tình dục và có tính gợi dục không đúng chỗ
+- Bình luận xúc phạm / lăng mạ, những lời lẽ xúc phạm hoặc hành vi quấy rối
+- Các hành vi quấy rối công khai hoặc riêng tư
+- Công bố thông tin cá nhân của người khác, chẳng hạn như địa chỉ vật lý hoặc điện tử, mà không được phép
+- Các hành vi khác được coi là không phù hợp trong môi trường chuyên nghiệp
 
 ## Trách nhiệm thực thi
 

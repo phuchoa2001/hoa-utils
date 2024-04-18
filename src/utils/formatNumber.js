@@ -1,5 +1,5 @@
 const typeCheck = require('./typeCheck');
-const typeValues = require("../contants/typeValues")
+const typeValues = require('../contants/typeValues');
 
 /**
  * Convert a number to an abbreviated format with standard units
@@ -7,13 +7,12 @@ const typeValues = require("../contants/typeValues")
  * @returns {string} The number converted to an abbreviated format
  */
 function formatNumber(num) {
-
   if (typeCheck(num) !== typeValues.number) {
-    return '0'
+    return '0';
   }
 
   // Handle negative numbers
-  const isNegative = num < 0; 
+  const isNegative = num < 0;
   num = Math.abs(num);
 
   // Define abbreviation units
@@ -26,14 +25,16 @@ function formatNumber(num) {
     unitIndex++;
   }
 
-  // Format the number with 2 decimal places  
+  // Format the number with 2 decimal places
   num = num.toFixed(2);
 
   // Remove unnecessary trailing decimal zeros
   num = parseFloat(num).toString();
 
   // Add the negative sign if the original number was negative
-  const formattedNum = isNegative ? `-${num}${units[unitIndex]}` : `${num}${units[unitIndex]}`;
+  const formattedNum = isNegative
+    ? `-${num}${units[unitIndex]}`
+    : `${num}${units[unitIndex]}`;
 
   return formattedNum;
 }
