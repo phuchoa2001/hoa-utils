@@ -13,16 +13,16 @@ const object1 = {
   name: 'Alice',
   attributes: {
     height: 150,
-    hobbies: ['reading', 'gaming']
-  }
+    hobbies: ['reading', 'gaming'],
+  },
 };
 
 const object2 = {
   name: 'Alice',
   attributes: {
     height: 150,
-    hobbies: ['reading', 'gaming']
-  }
+    hobbies: ['reading', 'gaming'],
+  },
 };
 
 console.log(deepEqual(object1, object2)); // Output: true

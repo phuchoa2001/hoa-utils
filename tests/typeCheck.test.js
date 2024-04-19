@@ -1,4 +1,4 @@
-const typeCheck = require('../src/utils/typeCheck');
+const { typeCheck } = require('../src');
 
 describe('typeCheck', () => {
   test('returns correct type for primitive values', () => {

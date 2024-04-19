@@ -8,7 +8,7 @@ function toUpperCaseAndRemoveVietnamese(input) {
   } else if (inputType === typeValues.string) {
     let str = input;
     var from =
-      'àáãảạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệđùúủũụưừứửữựòóỏõọôồốổỗộơờớởỡợìíỉĩịäëïîöüûñçýỳỹỵỷ',
+        'àáãảạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệđùúủũụưừứửữựòóỏõọôồốổỗộơờớởỡợìíỉĩịäëïîöüûñçýỳỹỵỷ',
       to =
         'aaaaaaaaaaaaaaaaaeeeeeeeeeeeduuuuuuuuuuuoooooooooooooooooiiiiiaeiiouuncyyyyy';
     for (var i = 0, l = from.length; i < l; i++) {
@@ -27,7 +27,7 @@ const capitalizeFirstLetter = (str, restToLower = false) => {
     return 'Input must be a string';
   }
 
-  const [firstChar = "", ...rest] = str;
+  const [firstChar = '', ...rest] = str;
   const capitalizedFirst = firstChar.toUpperCase();
 
   if (restToLower) {

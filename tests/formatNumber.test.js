@@ -1,4 +1,4 @@
-const formatNumber = require('../src/utils/formatNumber');
+const { formatNumber } = require('../src');
 
 describe('formatNumber', () => {
   test('should return the number as a string if it is less than 1000', () => {

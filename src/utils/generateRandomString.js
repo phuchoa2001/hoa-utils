@@ -21,7 +21,7 @@ const generateRandomString = (
     return 'Error: Input must be a number';
   }
 
-  if(length <= 0) {
+  if (length <= 0) {
     return 'Error: Length must be a positive number';
   }
 

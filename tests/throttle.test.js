@@ -1,4 +1,4 @@
-const throttle = require('../src/utils/throttle');
+const { throttle } = require('../src');
 
 describe('throttle', () => {
   let func;
