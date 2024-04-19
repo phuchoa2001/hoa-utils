@@ -15,7 +15,8 @@
 <details>
 <summary><strong>Hàm xử lý văn bản</strong></summary>
 
-- [ToUpperCaseAndRemoveVietnamese](guides/toUpperCaseAndRemoveVietnamese.md)
+- [To Upper Case And Remove Vietnamese](guides/toUpperCaseAndRemoveVietnamese.md)
+- [Capitalize First Letter](guides/capitalizeFirstLetter.md)
 </details>
 
 <details>
