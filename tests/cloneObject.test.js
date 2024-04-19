@@ -1,4 +1,4 @@
-const cloneObject = require('../src/utils/cloneObject');
+const { cloneObject } = require('../src');
 
 describe('cloneObject Function', () => {
   test('should clone a simple object', () => {

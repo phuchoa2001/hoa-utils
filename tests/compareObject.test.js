@@ -1,4 +1,4 @@
-const compareObject = require('../src/utils/compareObject');
+const { compareObject } = require('../src');
 
 describe('compareObject Function', () => {
   test('should return true for null compared with null', () => {

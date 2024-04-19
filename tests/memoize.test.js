@@ -1,4 +1,4 @@
-const memoize = require('../src/utils/memoize');
+const { memoize } = require('../src');
 
 describe('memoize', () => {
   it('should return the cached result for the same function and arguments', () => {

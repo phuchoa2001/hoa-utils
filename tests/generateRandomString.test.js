@@ -1,4 +1,4 @@
-const generateRandomString = require('../src/utils/generateRandomString');
+const { generateRandomString } = require('../src');
 
 describe('generateRandomString', () => {
   test('should return a random string with the specified length', () => {

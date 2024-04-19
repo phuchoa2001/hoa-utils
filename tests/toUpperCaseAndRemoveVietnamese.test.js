@@ -1,4 +1,4 @@
-const { toUpperCaseAndRemoveVietnamese } = require('../src/utils/string');
+const { toUpperCaseAndRemoveVietnamese } = require('../src');
 const typeValues = require('../contants/typeValues');
 
 describe('toUpperCaseAndRemoveVietnamese', () => {

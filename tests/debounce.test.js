@@ -1,4 +1,4 @@
-const debounce = require('../src/utils/debounce');
+const { debounce } = require('../src');
 
 describe('debounce', () => {
   let func;

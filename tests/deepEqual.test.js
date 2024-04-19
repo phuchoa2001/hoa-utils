@@ -1,4 +1,4 @@
-const deepEqual = require('../src/utils/deepEqual');
+const { deepEqual } = require('../src');
 
 describe('deepEqual Function', () => {
   test('should return true for null compared with null', () => {

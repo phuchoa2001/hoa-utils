@@ -7,7 +7,10 @@ const throttle = require('./utils/throttle');
 const typeCheck = require('./utils/typeCheck');
 const { delay } = require('./utils/promiseUtils');
 const formatNumber = require('./utils/formatNumber');
-const { toUpperCaseAndRemoveVietnamese , capitalizeFirstLetter } = require('./utils/string');
+const {
+  toUpperCaseAndRemoveVietnamese,
+  capitalizeFirstLetter,
+} = require('./utils/string');
 const generateRandomString = require('./utils/generateRandomString');
 const deepEqual = require('./utils/deepEqual');
 
@@ -23,5 +26,5 @@ module.exports = {
   toUpperCaseAndRemoveVietnamese,
   generateRandomString,
   deepEqual,
-  capitalizeFirstLetter
+  capitalizeFirstLetter,
 };

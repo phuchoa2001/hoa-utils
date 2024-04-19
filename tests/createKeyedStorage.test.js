@@ -1,4 +1,4 @@
-const createKeyedStorage = require('../src/utils/createKeyedStorage');
+const { createKeyedStorage } = require('../src');
 const createMockLocalStorage = require('../__mocks__/localStorage');
 
 describe('createKeyedStorage', () => {

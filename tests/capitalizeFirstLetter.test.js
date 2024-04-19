@@ -1,4 +1,4 @@
-const { capitalizeFirstLetter } = require('../src/utils/string');
+const { capitalizeFirstLetter } = require('../src');
 
 describe('capitalizeFirstLetter', () => {
   test('capitalizes the first letter of a string', () => {
@@ -24,7 +24,7 @@ describe('capitalizeFirstLetter', () => {
     expect(capitalizeFirstLetter('hello world')).toBe('Hello world');
     expect(capitalizeFirstLetter('hello world', true)).toBe('Hello world');
   });
-  
+
   test('returns "Input must be a string" when input is not a string', () => {
     expect(capitalizeFirstLetter(123)).toBe('Input must be a string');
     expect(capitalizeFirstLetter(true)).toBe('Input must be a string');
