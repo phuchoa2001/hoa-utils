@@ -22,6 +22,7 @@
 
 - [Create Keyed Storage](guides/createKeyedStorage.md)
 - [TypeCheck](guides/typeCheck.md)
+- [Generate Random String](guides/generateRandomString.md)
 </details>
 
 <details>
