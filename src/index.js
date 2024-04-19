@@ -9,6 +9,7 @@ const { delay } = require('./utils/promiseUtils');
 const formatNumber = require('./utils/formatNumber');
 const { toUpperCaseAndRemoveVietnamese } = require('./utils/string');
 const generateRandomString = require('./utils/generateRandomString');
+const deepEqual = require('./utils/deepEqual');
 
 module.exports = {
   compareObject,
@@ -20,5 +21,6 @@ module.exports = {
   typeCheck,
   formatNumber,
   toUpperCaseAndRemoveVietnamese,
-  generateRandomString
+  generateRandomString,
+  deepEqual
 };
