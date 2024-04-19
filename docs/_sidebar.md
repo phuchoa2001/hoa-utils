@@ -9,6 +9,7 @@
 
 - [Clone Object](guides/cloneObject.md)
 - [Compare Object](guides/compareObject.md)
+- [Deep Equal](guides/deepEqual.md)
 </details>
 
 <details>
