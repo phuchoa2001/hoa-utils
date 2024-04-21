@@ -1,5 +1,4 @@
-const typeCheck = require('./typeCheck');
-const typeValues = require('../contants/typeValues');
+const { isNumber } = require('./isType');
 
 /**
  * Convert a number to an abbreviated format with standard units
@@ -7,7 +6,7 @@ const typeValues = require('../contants/typeValues');
  * @returns {string} The number converted to an abbreviated format
  */
 function formatNumber(num) {
-  if (typeCheck(num) !== typeValues.number) {
+  if (!isNumber(num)) {
     return '0';
   }
 

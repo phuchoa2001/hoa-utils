@@ -1,5 +1,6 @@
 const typeCheck = require('./typeCheck');
 const typeValues = require('../contants/typeValues');
+const { isString } = require('./isType');
 
 function toUpperCaseAndRemoveVietnamese(input) {
   const inputType = typeCheck(input);
@@ -8,7 +9,7 @@ function toUpperCaseAndRemoveVietnamese(input) {
   } else if (inputType === typeValues.string) {
     let str = input;
     var from =
-        'àáãảạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệđùúủũụưừứửữựòóỏõọôồốổỗộơờớởỡợìíỉĩịäëïîöüûñçýỳỹỵỷ',
+      'àáãảạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệđùúủũụưừứửữựòóỏõọôồốổỗộơờớởỡợìíỉĩịäëïîöüûñçýỳỹỵỷ',
       to =
         'aaaaaaaaaaaaaaaaaeeeeeeeeeeeduuuuuuuuuuuoooooooooooooooooiiiiiaeiiouuncyyyyy';
     for (var i = 0, l = from.length; i < l; i++) {
@@ -23,7 +24,7 @@ function toUpperCaseAndRemoveVietnamese(input) {
 }
 
 const capitalizeFirstLetter = (str, restToLower = false) => {
-  if (typeCheck(str) !== typeValues.string) {
+  if (!isString(str)) {
     return 'Input must be a string';
   }
 

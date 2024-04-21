@@ -1,12 +1,11 @@
-const typeCheck = require('./typeCheck');
-const typeValues = require('../contants/typeValues');
+const { isString, isNumber, isNull } = require('./isType');
 const stringConstants = require('../contants/stringConstants');
 
 const generateRandomString = (
   length = 10,
   characters = stringConstants.CHARACTERS
 ) => {
-  if (typeCheck(characters) !== typeValues.string) {
+  if (!isString(characters)) {
     return 'Error: Input must be a string';
   }
 
@@ -15,8 +14,8 @@ const generateRandomString = (
   }
 
   if (
-    typeCheck(length) !== typeValues.number ||
-    typeCheck(length) === typeValues.null
+    !isNumber(length) ||
+    isNull(length)
   ) {
     return 'Error: Input must be a number';
   }
