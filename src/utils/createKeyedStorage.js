@@ -1,3 +1,5 @@
+const { isPlainObject, isFunction } = require('./isType');
+
 const createKeyedStorage = (key) => {
   // Sử dụng closure để lưu trữ key
   const storageKey = `__${key}__`;
@@ -25,7 +27,7 @@ const createKeyedStorage = (key) => {
   // Hàm set item với JSON.stringify nếu là object
   const setItemJSON = (itemKey, value) => {
     const valueToStore =
-      typeof value === 'object' ? JSON.stringify(value) : value;
+      isPlainObject(value) ? JSON.stringify(value) : value;
     setItem(itemKey, valueToStore);
   };
 
@@ -36,7 +38,7 @@ const createKeyedStorage = (key) => {
   // Hàm xóa tất cả các key có cùng tiền tố storageKey
   const clearMatchingKeys = () => {
     const keyPrefix = `${storageKey}:`;
-    const isMockStorage = typeof localStorage.length === 'function';
+    const isMockStorage = isFunction(localStorage.length);
     const keys = isMockStorage
       ? localStorage.getKeys()
       : Object.keys(localStorage);
