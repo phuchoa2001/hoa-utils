@@ -34,6 +34,21 @@
 </details>
 
 <details>
+<summary><strong>Hàm kiểm tra kiểu dữ liệu</strong></summary>
+
+- [isArray](guides/isArray.md)
+- [isObject](guides/isObject.md)
+- [isObjectLike](guides/isObjectLike.md)
+- [isPlainObject](guides/isPlainObject.md)
+- [isString](guides/isString.md)
+- [isNumber](guides/isNumber.md)
+- [isBoolean](guides/isBoolean.md)
+- [isFunction](guides/isFunction.md)
+- [isNull](guides/isNull.md)
+- [isUndefined](guides/isUndefined.md)
+</details>
+
+<details>
 <summary><strong>Hàm xử lý dữ liệu</strong></summary>
 
 - [Create Keyed Storage](guides/createKeyedStorage.md)

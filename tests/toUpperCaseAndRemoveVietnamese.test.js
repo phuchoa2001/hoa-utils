@@ -1,5 +1,5 @@
 const { toUpperCaseAndRemoveVietnamese } = require('../src');
-const typeValues = require('../contants/typeValues');
+const typeValues = require('../src/contants/typeValues');
 
 describe('toUpperCaseAndRemoveVietnamese', () => {
   test('should return uppercase string without Vietnamese characters for valid string input', () => {
