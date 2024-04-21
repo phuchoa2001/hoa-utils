@@ -5,18 +5,32 @@
   - [Bắt đầu nhanh](quick-start/quick-start.md)
 
 <details>
-<summary><strong>Hàm xử lý đối tượng</strong></summary>
+<summary><strong>Hàm xử lý Array</strong></summary>
 
-- [Clone Object](guides/cloneObject.md)
-- [Compare Object](guides/compareObject.md)
-- [Deep Equal](guides/deepEqual.md)
+- [Clone Array](guides/deepClone.md)
+- [Compare Array](guides/deepEqual.md)
 </details>
 
 <details>
-<summary><strong>Hàm xử lý văn bản</strong></summary>
+<summary><strong>Hàm xử lý String</strong></summary>
 
 - [To Upper Case And Remove Vietnamese](guides/toUpperCaseAndRemoveVietnamese.md)
 - [Capitalize First Letter](guides/capitalizeFirstLetter.md)
+</details>
+
+<details>
+<summary><strong>Hàm xử lý Number</strong></summary>
+
+- [Format Number](guides/formatNumber.md)
+</details>
+
+<details>
+<summary><strong>Hàm xử lý Object</strong></summary>
+
+- [Clone Object (khuyên dùng : Deep Clone )](guides/cloneObject.md)
+- [Deep Clone](guides/deepClone.md)
+- [Compare Object (khuyên dùng : Deep Equal )](guides/compareObject.md)
+- [Deep Equal](guides/deepEqual.md)
 </details>
 
 <details>
@@ -25,12 +39,6 @@
 - [Create Keyed Storage](guides/createKeyedStorage.md)
 - [TypeCheck](guides/typeCheck.md)
 - [Generate Random String](guides/generateRandomString.md)
-</details>
-
-<details>
-<summary><strong>Hàm định dạng dữ liệu</strong></summary>
-
-- [Format Number](guides/formatNumber.md)
 </details>
 
 <details>

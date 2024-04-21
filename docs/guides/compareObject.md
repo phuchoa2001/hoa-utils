@@ -1,3 +1,5 @@
+Khuyên dùng `deepEqual` từ phiên bản `1.2.0`
+
 # Hướng dẫn sử dụng hàm `compareObject`
 
 Hàm `compareObject` trong thư viện `hoa-utils` được sử dụng để so sánh sâu giữa hai đối tượng JavaScript. Hàm này kiểm tra xem hai đối tượng có bằng nhau về cấu trúc và giá trị hay không.

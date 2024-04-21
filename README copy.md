@@ -4,14 +4,13 @@
 
 Thư viện bao gồm các hàm chính sau:
 
-| Tên Hàm              | Tính Năng                                                                                                                            |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| `compareObject`      | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị.                                                      |
-| `cloneObject`        | Tạo một bản sao sâu của đối tượng, đảm bảo rằng bản sao là một thực thể độc lập.                                                     |
-| `createKeyedStorage` | Tạo ra một đối tượng để quản lý dữ liệu trong `localStorage` với một key riêng biệt.                                                 |
-| `memoize`            | Tạo ra một phiên bản memoized của một hàm, lưu trữ kết quả của hàm với các đầu vào nhất định để tránh tính toán lặp lại.             |
-| `deepClone`          | Tạo một bản sao sâu của đối tượng hoặc giá trị đã cho, sử dụng phương thức `cloneDeep` từ thư viện Lodash.                           |
-| `deepEqual`          | So sánh sâu giữa hai giá trị, bao gồm đối tượng, mảng và kiểu dữ liệu nguyên thủy, sử dụng phương thức `isEqual` từ thư viện Lodash. |
+| Tên Hàm              | Tính Năng                                                                                                                                                              |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `compareObject`      | So sánh sâu giữa hai đối tượng để kiểm tra sự bằng nhau về cấu trúc và giá trị.                                                                                        |
+| `cloneObject`        | Tạo một bản sao sâu của đối tượng, đảm bảo rằng bản sao là một thực thể độc lập.                                                                                       |
+| `createKeyedStorage` | Tạo ra một đối tượng để quản lý dữ liệu trong `localStorage` với một key riêng biệt.                                                                                   |
+| `memoize`            | Tạo ra một phiên bản memoized của một hàm, lưu trữ kết quả của hàm với các đầu vào nhất định để tránh tính toán lặp lại.                                               |
+| `deepEqual`          | So sánh sâu giữa hai giá trị, bao gồm đối tượng, mảng và kiểu dữ liệu nguyên thủy. `Lưu ý: không so sánh được các giá trị như` `Function`, `Symbol`, `Date`, `RegExp`. |
 
 Thư viện `hoa-utils` được thiết kế dành cho các lập trình viên JavaScript, đặc biệt là những người làm việc với đối tượng, dữ liệu và tối ưu hiệu suất. Bằng cách sử dụng các hàm tiện ích này, các lập trình viên có thể đơn giản hóa mã nguồn, tăng tính nhất quán và đảm bảo tính chính xác trong việc xử lý dữ liệu.
 
@@ -41,6 +40,10 @@ import {
 
 // Sử dụng các hàm ở đây
 ```
+
+## Tài liệu
+
+Để tìm hiểu chi tiết về cách sử dụng từng hàm, hãy tham khảo tài liệu tại: https://hoa-utils.netlify.app
 
 ## Về Dự án
 
