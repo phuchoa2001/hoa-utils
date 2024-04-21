@@ -13,6 +13,7 @@ const {
 } = require('./utils/string');
 const generateRandomString = require('./utils/generateRandomString');
 const deepEqual = require('./utils/deepEqual');
+const deepClone = require('./utils/deepClone');
 
 module.exports = {
   compareObject,
@@ -27,4 +28,5 @@ module.exports = {
   generateRandomString,
   deepEqual,
   capitalizeFirstLetter,
+  deepClone,
 };

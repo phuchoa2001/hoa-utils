@@ -1,6 +1,8 @@
+Hàm `deepEqual` sử dụng phương thức `isEqual` từ thư viện Lodash:
+
 # Hướng dẫn sử dụng hàm `deepEqual`
 
-Hàm `deepEqual` là một hàm trong JavaScript được thiết kế để so sánh sâu giữa hai giá trị bất kỳ, có thể là đối tượng, mảng, hoặc các kiểu dữ liệu nguyên thủy khác. Hàm này kiểm tra xem hai giá trị có bằng nhau không chỉ về giá trị bề mặt mà còn về cấu trúc và nội dung bên trong.
+Hàm `deepEqual` là một hàm trong JavaScript được thiết kế để so sánh sâu giữa hai giá trị bất kỳ, có thể là đối tượng, mảng, hoặc các kiểu dữ liệu nguyên thủy khác. Hàm này sử dụng phương thức `isEqual` từ thư viện Lodash để kiểm tra xem hai giá trị có bằng nhau không chỉ về giá trị bề mặt mà còn về cấu trúc và nội dung bên trong.
 
 ## Cách sử dụng
 
@@ -30,19 +32,19 @@ console.log(deepEqual(object1, object2)); // Output: true
 
 ## Cách hoạt động của hàm `deepEqual`
 
-1. **Kiểm tra bằng nhau nghiêm ngặt (`===`)**: Nếu hai giá trị có cùng tham chiếu, hàm trả về `true`.
+Hàm `deepEqual` sử dụng phương thức `isEqual` từ thư viện Lodash để thực hiện so sánh sâu giữa hai giá trị. Phương thức `isEqual` của Lodash có các đặc điểm sau:
 
-2. **Kiểm tra kiểu dữ liệu**: Nếu một trong hai giá trị không phải là `Object`, hàm trả về `false`.
+1. **So sánh sâu**: Phương thức này thực hiện so sánh sâu, có nghĩa là nó so sánh tất cả các thuộc tính lồng nhau bên trong các đối tượng.
 
-3. **So sánh constructor**: Nếu hai giá trị có các constructor khác nhau, hàm trả về `false`.
+2. **Xử lý các trường hợp đặc biệt**: `isEqual` xử lý các trường hợp đặc biệt như `NaN`, `+0/-0`, `Date`, `RegExp`, `Map`, `Set`, v.v. một cách chính xác.
 
-4. **So sánh thuộc tính**: Hàm lặp qua mỗi thuộc tính của đối tượng thứ nhất và kiểm tra xem thuộc tính đó có tồn tại trong đối tượng thứ hai hay không, và ngược lại.
+3. **Tránh vòng lặp vô hạn**: Nó an toàn với các đối tượng có tham chiếu tuần hoàn bằng cách sử dụng bộ nhớ đệm.
 
-5. **So sánh giá trị thuộc tính**: Nếu giá trị của thuộc tính là kiểu dữ liệu nguyên thủy, chúng phải bằng nhau nghiêm ngặt. Nếu giá trị là đối tượng hoặc mảng, hàm sẽ gọi đệ quy `deepEqual` để so sánh sâu hơn.
+4. **So sánh mảng và đối tượng**: Nó có thể so sánh các mảng và đối tượng phức tạp.
 
 ## Lưu ý
 
-- Hàm `deepEqual` không so sánh các thuộc tính không thể serialize được như `Function`, `Symbol`, `Date`, `RegExp`.
-- Hàm này không xử lý các đối tượng có thể gây ra vòng lặp tham chiếu vô hạn.
+- Phương thức `isEqual` của Lodash hỗ trợ so sánh các đối tượng `Function`, `Symbol`, `Date`, `RegExp`, vì vậy hàm `deepEqual` cũng hỗ trợ các trường hợp này.
+- Hàm `deepEqual` sử dụng `isEqual` để xử lý các đối tượng có thể gây ra vòng lặp tham chiếu vô hạn một cách an toàn.
 
-Hàm `deepEqual` là một công cụ hữu ích khi bạn cần thực hiện so sánh phức tạp giữa các đối tượng có cấu trúc phức tạp và lồng nhau, đảm bảo rằng mọi khía cạnh của đối tượng đều được so sánh một cách chính xác
+Bằng cách sử dụng phương thức `isEqual` từ thư viện Lodash, hàm `deepEqual` trở nên mạnh mẽ hơn và có thể xử lý nhiều trường hợp phức tạp hơn khi so sánh sâu các đối tượng và giá trị khác nhau.
