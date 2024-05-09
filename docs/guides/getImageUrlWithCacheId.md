@@ -24,6 +24,8 @@ const updatedImageUrl = getImageUrlWithCacheId(
 - `cacheGroup` (tùy chọn): Nhóm cache mà hình ảnh thuộc về (ví dụ: 'product(v1.0.0)'). Nếu được cung cấp, `cacheId` sẽ được tạo dựa trên tên nhóm cache này.
 - `forceNewCacheId` (tùy chọn, mặc định là `false`): Nếu `true`, hàm sẽ luôn tạo ra một `cacheId` mới bằng cách sử dụng `Date.now().toString()`.
 
+Sau khi nhận được URL mới từ hàm `getImageUrlWithCacheId`, bạn có thể sử dụng nó trong các thẻ HTML như `<img>` để hiển thị hình ảnh hoặc `<script>` để tải script.
+
 ## Quản lý nhóm cache
 
 Để quản lý các nhóm cache, bạn nên tạo một file riêng để lưu trữ tất cả các nhóm cache. Ví dụ, bạn có thể tạo một file `cacheGroups.js` với nội dung như sau:
