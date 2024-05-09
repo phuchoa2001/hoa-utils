@@ -26,8 +26,7 @@ const createKeyedStorage = (key) => {
 
   // Hàm set item với JSON.stringify nếu là object
   const setItemJSON = (itemKey, value) => {
-    const valueToStore =
-      isPlainObject(value) ? JSON.stringify(value) : value;
+    const valueToStore = isPlainObject(value) ? JSON.stringify(value) : value;
     setItem(itemKey, valueToStore);
   };
 

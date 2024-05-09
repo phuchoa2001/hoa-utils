@@ -16,6 +16,7 @@
 
 - [To Upper Case And Remove Vietnamese](guides/toUpperCaseAndRemoveVietnamese.md)
 - [Capitalize First Letter](guides/capitalizeFirstLetter.md)
+- [truncate String](guides/truncateString.md)
 </details>
 
 <details>
@@ -62,6 +63,12 @@
 - [Memoize](guides/memoize.md)
 - [Debounce](guides/debounce.md)
 - [Throttle](guides/throttle.md)
+</details>
+
+<details>
+<summary><strong>Hàm xử lý Cache</strong></summary>
+
+- [Get Image URL With Cache Id](guides/getImageUrlWithCacheId.md)
 </details>
 
 ---

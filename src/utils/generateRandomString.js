@@ -13,10 +13,7 @@ const generateRandomString = (
     return 'Error: Characters cannot be empty';
   }
 
-  if (
-    !isNumber(length) ||
-    isNull(length)
-  ) {
+  if (!isNumber(length) || isNull(length)) {
     return 'Error: Input must be a number';
   }
 
