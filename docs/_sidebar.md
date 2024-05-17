@@ -58,6 +58,14 @@
 </details>
 
 <details>
+<summary><strong>Hàm xử lý bất đồng bộ</strong></summary>
+
+- [Delay](guides/delay.md)
+- [Retry](guides/retry.md)
+- [retry With Delay](guides/retryWithDelay.md)
+</details>
+
+<details>
 <summary><strong>Hàm tối ưu hiệu suất</strong></summary>
 
 - [Memoize](guides/memoize.md)
