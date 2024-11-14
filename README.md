@@ -53,3 +53,4 @@ import {
 Mã nguồn của dự án có thể được tìm thấy tại: https://github.com/phuchoa2001/hoa-utils
 
 Mọi đóng góp, báo cáo lỗi hoặc yêu cầu tính năng mới đều được hoan nghênh. Hãy tham gia cùng chúng tôi để cải thiện và phát triển thư viện `hoa-utils`!
+This project is tested with BrowserStack.
